@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.mainVisor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.visor {
+    background-color: rgb(232, 226, 226);
+    position: relative;
+    top: 30px;
+    border: 8px black solid;
+    border-radius: 25px;
+    height: 5rem;
+    width: 30rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.mainBox {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 8px black solid;
+    border-radius: 25px;
+    height: 50rem;
+    width: 50rem;
+    padding: 20px 20px 20px;
+}
+
+.c-1, .c-2, .c-3, .c-4, .c-5, .c-6, .c-7, .c-8, .c-9 {
+    background-color: yellow;
+    border: 8px black solid;
+    border-radius: 50%;
+    height: 14rem;
+    width: 14rem;
+} 
+
+.c-1 {
+    background-image: url("./assets/Amazon.gif");
+    background-position: center top;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
+
+.c-2 {
+    background-image: url("./assets/Behemoth.gif");
+    background-position: center;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
+
+.c-3 { 
+    background-image: url("./assets/Cyclops.gif");
+    background-position: center;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
+
+.c-4 {
+    background-image: url("./assets/Dragon.gif");
+    background-position: center;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
+
+.c-5 {
+    background-image: url("./assets/Elder_Wyrm.gif");
+    background-position: center;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
+
+.c-6 {
+    background-image: url("./assets/Ferumbras.gif");
+    background-position: center top;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
+
+.c-7 {
+    background-image: url("./assets/Ghoul.gif");
+    background-position: center top;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
+
+.c-8 {
+    background-image: url("./assets/Hero.gif");
+    background-position: center top;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
+
+.c-9 {
+    background-image: url("./assets/Infernalist.gif");
+    background-position: center top;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+}
