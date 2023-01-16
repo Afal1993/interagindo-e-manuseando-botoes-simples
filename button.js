@@ -1,34 +1,34 @@
 const changeVisorValueEduardo = document.querySelector('[id="buttEduardo"]');
       changeVisorValueEduardo.addEventListener('click', function() {
-            texto.value = 'Eduardo';
+            return texto.value = 'Eduardo';
       });
 
 const changeVisorValueEdileuza = document.querySelector('[id="buttEdileuza"]');
       changeVisorValueEdileuza.addEventListener('click', function(){
-            texto.value = 'Edileuza';
+            return texto.value = 'Edileuza';
       });
 
 const changeVisorValueAriana = document.querySelector('[id="buttAriana"]');
       changeVisorValueAriana.addEventListener('click', function() {
-            texto.value = 'Ariana';
+            return texto.value = 'Ariana';
       });
 
 const changeVisorValueAlexandre = document.querySelector('[id="buttAlexandre"]');
       changeVisorValueAlexandre.addEventListener('click', function() {
-            texto.value = 'Alexandre';
+            return texto.value = 'Alexandre';
       })
 
 const changeVisorValueAlan = document.querySelector('[id="buttAlan');
       changeVisorValueAlan.addEventListener('click', function() {
-            texto.value = 'Alan';
+            return texto.value = 'Alan';
       });
 
 const changeVisorValueJonatha = document.querySelector('[id="buttJonatha"]');
       changeVisorValueJonatha.addEventListener('click', function() {
-            texto.value = 'Jonatha';
+            return texto.value = 'Jonatha';
       });
 
 const buttClear = document.querySelector('[id="buttClear"]');
       buttClear.addEventListener('click', function() {
-            texto.value = '';
+            return texto.value = '';
       })
