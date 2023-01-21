@@ -1,10 +1,10 @@
 const changeVisorValueEduardo = document.querySelector('[id="buttEduardo"]');
       changeVisorValueEduardo.addEventListener('click', function() {
-            return texto.value = 'Eduardo';
+            this.innerHTML = '<a id="goYou" target="_blank" href="http://www.youtube.com"><butto>Eduardo</button></a>';
       });
 
 const changeVisorValueEdileuza = document.querySelector('[id="buttEdileuza"]');
-      changeVisorValueEdileuza.addEventListener('click', function(){
+      changeVisorValueEdileuza.addEventListener('click', function() {
             return texto.value = 'Edileuza';
       });
 
